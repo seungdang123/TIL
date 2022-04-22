@@ -3,9 +3,9 @@
 CSS는 비교적 간단한 문법을 가지지만 작업이 커질수록 여러 불편함이 생긴다.  
 SASS는 반복되어 사용되는 선택자 구문을 간략히 처리 및 연산 기능, 구문 등의 기능을 제공하여 CSS의 가독성, 재사용성, 유지보수를 쉽게 도와준다.
 
-• CSS Preprocessor
-• CSS에 variable, nesting, mixin, inheritance 등의 개념이 추가
-• SASS는 Preprocessor 과정을 통해 CSS로 해석 및 컴파일된다.
+• CSS Preprocessor  
+• CSS에 variable, nesting, mixin, inheritance 등의 개념이 추가  
+• SASS는 Preprocessor 과정을 통해 CSS로 해석 및 컴파일된다.  
 
 ```
 /**CSS Syntax**/
