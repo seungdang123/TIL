@@ -1,6 +1,5 @@
 def solution(N, stages):
 
-    # 내림차순으로 정렬
     stages.sort()
 
     # 특정 스테이지와 실패율 담는 리스트
@@ -8,6 +7,7 @@ def solution(N, stages):
 
     for i in range(1, N+1):
 
+        # stages 배열 비어있는 경우
         if len(stages) == 0:
             failure_list.append((i,0))
         
@@ -18,6 +18,8 @@ def solution(N, stages):
                 stages.remove(i)
     
     result = []
+
+    # failure 값 기준으로 내림차순 정렬
     failure_list.sort(key = lambda x:x[1], reverse= True)
     print(failure_list)
 
@@ -27,6 +29,5 @@ def solution(N, stages):
     return result
 
 
-print(solution(5, [1,2,2,1,3])) 
 print(solution(20, [1,2,2,1,3]))
 
