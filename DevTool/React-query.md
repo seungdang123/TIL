@@ -1,3 +1,4 @@
+```
 import { useState, useEffect } from "react";
 import { useQuery } from "react-query";
 import axios from "axios";
@@ -29,6 +30,7 @@ function App() {
 // }, []);
 
 // # react-query & axios를 이용한 서버 통신
+// # useState, useEffect를 반복해서 사용하지 않아도 된다
 // # 상태 관리를 보다 쉽고 간결하게 할 수 있다
 
 const { isLoading, error, data } = useQuery("dogs", () =>
@@ -57,3 +59,4 @@ style={{ width: "800px", height: "800px" }}
 }
 
 export default App;
+```
