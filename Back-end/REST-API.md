@@ -24,7 +24,7 @@ REST API는 아래와 같은 규칙을 따른다.
 - HTTP 메소드를 이용하여 데이터를 요청한다.
 
 ```
-/Movies //-> Collection
+/Movies -> Collection
 
 // Element
 GET /Movie/harrypoter
